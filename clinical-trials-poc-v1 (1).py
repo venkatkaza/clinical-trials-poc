@@ -159,10 +159,24 @@ with col1:
     # When you have the logo file, use:
     st.image("brontobyte_logo.png", width=400)
     
-    # Title and subtitle below logo, left-aligned
-    st.markdown("<h2 style= 'color': #003366;'margin-top: 10px; margin-bottom: 0;'>Clinical Trial Intelligence Platform</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #6b7280; margin-top: 5px; font-size: 1.1rem;'>Agentic AI-Powered Protocol Optimization & Site Selection</p>", unsafe_allow_html=True)
+    /* Header text styling - Deep Blue Title */
+.header-title {
+    font-size: 2rem;
+    color: #003366;  /* Deep blue color */
+    font-weight: 600;
+    margin-top: 10px;  /* Reduced from 15px */
+    margin-bottom: 5px;
+}
 
+.header-subtitle {
+    color: #64748b;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+/* Remove default Streamlit padding */
+.stImage {
+    margin-bottom: 0 !important;
+}
 st.markdown("---")
 
 # Sidebar inputs
