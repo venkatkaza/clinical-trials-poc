@@ -155,10 +155,10 @@ col1, col2, col3 = st.columns([2, 6, 2])
 
 with col1:
     # For now, using text placeholder - replace with st.image() when you have the logo file
-    st.markdown("### 🧬 BRONTOBYTE")
-    st.markdown("**ANALYTICS**")
+    # st.markdown("### 🧬 BRONTOBYTE")
+    # st.markdown("**ANALYTICS**")
     # When you have the logo file, use:
-    # st.image("brontobyte_logo.png", width=200)
+    st.image("brontobyte_logo.png", width=200)
 
 with col2:
     st.markdown("# Clinical Trial Intelligence Platform")
