@@ -160,7 +160,7 @@ with col1:
     st.image("brontobyte_logo.png", width=400)
     
     # Title and subtitle below logo, left-aligned
-    st.markdown("<h2 style='margin-top: 20px; margin-bottom: 0;'>Clinical Trial Intelligence Platform</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style= 'color': #003366;'margin-top: 10px; margin-bottom: 0;'>Clinical Trial Intelligence Platform</h2>", unsafe_allow_html=True)
     st.markdown("<p style='color: #6b7280; margin-top: 5px; font-size: 1.1rem;'>Agentic AI-Powered Protocol Optimization & Site Selection</p>", unsafe_allow_html=True)
 
 st.markdown("---")
