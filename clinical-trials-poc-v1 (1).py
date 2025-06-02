@@ -150,21 +150,20 @@ def load_data():
 trials_df, sites_df = load_data()
 
 # Header with Logo
-# Create a centered layout with logo on top
-col1, col2, col3 = st.columns([1, 2, 1])
+# Method 3: Using Streamlit columns (recommended for Replit)
+col1, col2, col3 = st.columns([2, 6, 2])
 
-with col2:
-    # Logo centered at the top
+with col1:
+    # For now, using text placeholder - replace with st.image() when you have the logo file
+  
     # When you have the logo file, use:
     st.image("brontobyte_logo.png", width=600)
-    st.markdown("</div>", unsafe_allow_html=True)
-    
-    # Add some space between logo and title
-    st.markdown("<br>", unsafe_allow_html=True)
-    
-    # Title and subtitle below the logo
-    st.markdown("<h1 style='text-align: center;'>Clinical Trial Intelligence Platform</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center; color: #6b7280;'>Agentic AI-Powered Protocol Optimization & Site Selection</h3>", unsafe_allow_html=True)
+
+with col2:
+    st.markdown("# Clinical Trial Intelligence Platform")
+    st.markdown("### Agentic AI-Powered Protocol Optimization & Site Selection")
+
+
 
 
 with col3:
