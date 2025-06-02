@@ -165,7 +165,7 @@ st.markdown("""
 
 .header-title {
     font-size: 2.0rem;
-    color: #003366;
+    color: #003366 !important;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -197,14 +197,14 @@ with col1:
     # Logo with CSS styling
     st.markdown('<div class="logo-section">', unsafe_allow_html=True)
     # Use your actual logo file here
-    st.image("brontobyte_logo.png", width=250)
+    st.image("brontobyte_logo.png", width=400)
     # For now, using placeholder if image not found
     # st.markdown("### 🧬 BRONTOBYTE ANALYTICS")
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Title and subtitle below logo, left-aligned with minimal gap
     st.markdown('<h2 class="header-title">Clinical Trial Intelligence Platform</h2>', unsafe_allow_html=True)
-    st.markdown('<p class="header-subtitle">AI-Powered Protocol Optimization & Site Selection</p>', unsafe_allow_html=True)
+    st.markdown('<p class="header-subtitle">Agwntic AI-Powered Protocol Optimization & Site Selection</p>', unsafe_allow_html=True)
 
 with col2:
     # Enterprise edition badge on the right
