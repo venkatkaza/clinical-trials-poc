@@ -206,12 +206,7 @@ with col1:
     st.markdown('<h2 class="header-title">Clinical Trial Intelligence Platform</h2>', unsafe_allow_html=True)
     st.markdown('<p class="header-subtitle">Agentic AI-Powered Protocol Optimization & Site Selection</p>', unsafe_allow_html=True)
 
-with col2:
-    # Enterprise edition badge on the right
-    st.markdown('<div class="version-info">', unsafe_allow_html=True)
-    st.markdown("**Enterprise Edition**  ")
-    st.markdown("Version 1.0")
-    st.markdown('</div>', unsafe_allow_html=True)
+
 
 st.markdown("---")
 
@@ -692,7 +687,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center; color: #6b7280; font-size: 0.875rem;'>
-    <strong>Brontobyte Analytics</strong> | Clinical Trial Intelligence Platform v1.0 | Powered by Advanced AI<br>
+    <strong>Brontobyte Analytics</strong> | Clinical Trial Intelligence Platform v1.0 | Powered by Generative AI<br>
     © 2025 Brontobyte Analytics. All rights reserved.
     </div>
     """,
