@@ -167,7 +167,7 @@ st.markdown("""
     font-size: 2.0rem;
     color: #003366 !important;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -204,7 +204,7 @@ with col1:
     
     # Title and subtitle below logo, left-aligned with minimal gap
     st.markdown('<h2 class="header-title">Clinical Trial Intelligence Platform</h2>', unsafe_allow_html=True)
-    st.markdown('<p class="header-subtitle">Agwntic AI-Powered Protocol Optimization & Site Selection</p>', unsafe_allow_html=True)
+    st.markdown('<p class="header-subtitle">Agentic AI-Powered Protocol Optimization & Site Selection</p>', unsafe_allow_html=True)
 
 with col2:
     # Enterprise edition badge on the right
