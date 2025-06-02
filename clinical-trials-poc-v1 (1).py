@@ -161,7 +161,6 @@ with col1:
     
     /* Header text styling - Deep Blue Title */
 .header-title {
-    font-size: 2rem;
     color: #003366;  /* Deep blue color */
     font-weight: 600;
     margin-top: 10px;  /* Reduced from 15px */
