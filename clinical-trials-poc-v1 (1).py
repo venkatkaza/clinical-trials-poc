@@ -150,23 +150,6 @@ def load_data():
 trials_df, sites_df = load_data()
 
 # Header with Logo
-# Method 1: Using a hosted logo URL (replace with your hosted URL)
-# logo_url = "https://your-domain.com/brontobyte-logo.png"
-
-# Method 2: Using base64 encoded image (for local images)
-# To use this method:
-# 1. Save your logo as 'brontobyte_logo.png' in the same folder as your app
-# 2. Uncomment the following code:
-"""
-import base64
-def get_base64_logo(image_path):
-    with open(image_path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
-
-logo_base64 = get_base64_logo("brontobyte_logo.png")
-logo_html = f'<img src="data:image/png;base64,{logo_base64}" style="height:60px;">'
-"""
-
 # Method 3: Using Streamlit columns (recommended for Replit)
 col1, col2, col3 = st.columns([2, 6, 2])
 
