@@ -157,7 +157,7 @@ with col1:
     # Logo on the left side
  
     # When you have the logo file, use:
-    st.image("brontobyte_logo.png", width=500)
+    st.image("brontobyte_logo.png", width=400)
     
     # Title and subtitle below logo, left-aligned
     st.markdown("<h2 style='margin-top: 20px; margin-bottom: 0;'>Clinical Trial Intelligence Platform</h2>", unsafe_allow_html=True)
