@@ -150,31 +150,18 @@ def load_data():
 trials_df, sites_df = load_data()
 
 # Header with Logo
-# Create layout with logo on left and title on right
-col1, col2 = st.columns([1, 3])
+# Create layout with logo and title both left-aligned
+col1, col2 = st.columns([3, 1])
 
 with col1:
-    # Logo on the left side with larger size
-    # For now, using text placeholder - replace with st.image() when you have the logo file
-   
+    # Logo on the left side
+ 
     # When you have the logo file, use:
     st.image("brontobyte_logo.png", width=500)
-
-with col2:
-    # Title and subtitle on the right with smaller font
-    st.markdown("<div style='padding-top: 20px;'>", unsafe_allow_html=True)
-    st.markdown("<h3 style='margin-bottom: 0;'>Clinical Trial Intelligence Platform</h3>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #6b7280; margin-top: 5px;'>Agentic AI-Powered Protocol Optimization & Site Selection</p>", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
-
-# Enterprise edition badge on the far right
-col1, col2, col3 = st.columns([1, 3, 1])
-
-with col3:
-    st.markdown("<div class='company-info'>", unsafe_allow_html=True)
-    st.markdown("**Enterprise Edition**")
-    st.markdown("Version 1.0")
-    st.markdown("</div>", unsafe_allow_html=True)
+    
+    # Title and subtitle below logo, left-aligned
+    st.markdown("<h2 style='margin-top: 20px; margin-bottom: 0;'>Clinical Trial Intelligence Platform</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #6b7280; margin-top: 5px; font-size: 1.1rem;'>Agentic AI-Powered Protocol Optimization & Site Selection</p>", unsafe_allow_html=True)
 
 st.markdown("---")
 
