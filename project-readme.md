@@ -46,11 +46,11 @@ streamlit run simplilearn-projectx.py
 ```
 
 ## Key Insights Discovered
-1. **Sales Performance**: Total sales of $XXX,XXX with average transaction of $XXX
-2. **Best Performing Product**: [Product Name] generating $XX,XXX in revenue
-3. **Regional Leader**: [Region] contributing XX% of total sales
-4. **Customer Satisfaction**: Average rating of X.X/5.0
-5. **Seasonal Patterns**: Q4 shows 30% higher sales due to holiday season
+1. **Sales Performance**: Total sales of $1,017,582.36 with average transaction of $407.03
+2. **Best Performing Product**: [Product Name: Television] generating $216,766 in revenue
+3. **Regional Leader**: [Central] contributing 21.3% of total sales
+4. **Customer Satisfaction**: Average rating of 4.0/5.0
+5. **Seasonal Patterns**: Q4 shows 35% higher sales due to holiday season
 
 ## Business Intelligence Approaches
 
@@ -80,6 +80,6 @@ streamlit run simplilearn-projectx.py
 - Mobile-responsive dashboard design
 
 ## Author
-[Your Name]
-[Date]
-[Course/Program Name]
+Amulya Keerapatla
+
+Simplilearn - Advanced Executive Program in Applied Generative AI
